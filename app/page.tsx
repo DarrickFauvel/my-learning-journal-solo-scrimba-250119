@@ -1,17 +1,14 @@
-import Image from "next/image";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
     <div className="grid font-[family-name:var(--font-geist-sans)]">
-      <header>
-        <div></div>
-      </header>
-      <main>
+      <Header />
 
-      </main>
-      <footer>
+      <main></main>
 
-      </footer>
+      <Footer />
     </div>
   );
 }
