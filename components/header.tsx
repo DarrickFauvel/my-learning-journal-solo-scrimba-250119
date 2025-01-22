@@ -6,7 +6,7 @@ export default function Header() {
     <header className="grid grid-cols-[1fr_auto] p-5 font-bold">
       <Link className="grid grid-cols-[auto_1fr] gap-1" href="/">
         <Logo />
-        <span>My learning journal</span>
+        <span className="font-[family-name:var(--font-roboto)]">My learning journal</span>
       </Link>
 
       <nav>

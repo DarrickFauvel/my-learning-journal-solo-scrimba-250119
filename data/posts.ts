@@ -1,0 +1,35 @@
+export const posts = [
+  {
+    id: 100,
+    date: "2022-07-23",
+    heading: "My new journey as a bootcamp student.",
+    text: "After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.",
+    image: "/images/blog-image-hero.png",
+    imageAlt: "",
+    isHero: true,
+  },
+  {
+    id: 101,
+    date: "2022-07-23",
+    heading: "Blog one",
+    text: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+    image: "/images/article-image-03.png",
+    imageAlt: "",
+  },
+  {
+    id: 102,
+    date: "2022-07-23",
+    heading: "Blog two",
+    text: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+    image: "/images/article-image-02.png",
+    imageAlt: "",
+  },
+  {
+    id: 103,
+    date: "2022-07-23",
+    heading: "Blog three",
+    text: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
+    image: "/images/article-image-01.png",
+    imageAlt: "",
+  },
+]
