@@ -6,11 +6,11 @@ export default function Header() {
     <header className="grid grid-cols-[1fr_auto] p-5">
       <Link className="grid grid-cols-[auto_1fr] gap-1" href="/">
         <Logo />
-        <span className="font-[family-name:var(--font-roboto)]">My learning journal</span>
+        <span className="font-roboto">My learning journal</span>
       </Link>
 
       <nav className="flex items-center font-bold">
-        <ul className="flex gap-8 uppercase text-xs font-[family-name:var(--font-source-sans-3)] mt-1">
+        <ul className="flex gap-8 uppercase text-xs font-source mt-1">
           <li>
             <Link href="/">Home</Link>
           </li>
