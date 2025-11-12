@@ -16,7 +16,7 @@ const formattedDate = formatDate(date)
   if (isHero) {
     return (
       <Card className="w-full overflow-hidden rounded-none border-0 shadow-none">
-        <CardContent className="p-0 relative aspect-[21/9]">
+        <CardContent className="p-0 relative h-[293px]">
           <img
             src={image || "/images/placeholder.svg"}
             alt={imageAlt}
