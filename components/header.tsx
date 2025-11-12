@@ -9,7 +9,7 @@ export default function Header() {
         <span className="font-[family-name:var(--font-roboto)]">My learning journal</span>
       </Link>
 
-      <nav>
+      <nav className="flex items-center">
         <ul className="flex gap-8 uppercase text-xs font-[family-name:var(--font-source-sans-3)] mt-1">
           <li>
             <Link href="/">Home</Link>
