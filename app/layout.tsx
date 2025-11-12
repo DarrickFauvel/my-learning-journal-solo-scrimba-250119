@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 
-const sourceSans3 = Source_Sans_3({
+const source = Source_Sans_3({
   variable: "--font-source-sans-3",
   subsets: ["latin"],
 });
@@ -27,9 +27,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${roboto.variable} ${source.variable}`}>
       <body
-        className={`${roboto.variable} ${sourceSans3.variable} antialiased bg-slate-900`}
+        className="antialiased bg-slate-900"
       >
         <div className="w-[414px] m-auto bg-white">
           <Header />
