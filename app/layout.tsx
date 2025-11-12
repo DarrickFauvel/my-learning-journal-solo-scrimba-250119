@@ -31,11 +31,12 @@ export default function RootLayout({
       <body
         className={`${roboto.variable} ${sourceSans3.variable} antialiased bg-slate-900`}
       >
-        <Header />
-        
-        {children}
-
-        <Footer />
+        <div className="w-[414px] m-auto bg-white">
+          <Header />
+          
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
