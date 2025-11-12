@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.variable} ${sourceSans3.variable} antialiased`}
+        className={`${roboto.variable} ${sourceSans3.variable} antialiased bg-slate-900`}
       >
         <Header />
         
