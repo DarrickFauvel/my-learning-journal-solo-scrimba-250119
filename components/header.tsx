@@ -10,7 +10,7 @@ export default function Header() {
       </Link>
 
       <nav>
-        <ul className="grid grid-cols-2 uppercase">
+        <ul className="flex gap-8 uppercase text-xs font-[family-name:var(--font-source-sans-3)] mt-1">
           <li>
             <Link href="/">Home</Link>
           </li>
