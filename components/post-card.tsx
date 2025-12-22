@@ -45,7 +45,7 @@ const formattedDate = formatDate(date)
           <img
             src={image || "/images/placeholder.svg"}
             alt={imageAlt}
-            className="w-full h-full object-cover"
+            className="w-full object-cover"
           />
         </div>
         <div className="px-6">
