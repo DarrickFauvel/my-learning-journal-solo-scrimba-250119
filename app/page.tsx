@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         {renderPosts}
 
-        <Button className="flex justify-self-center my-4 underline font-bold" variant="link">View More</Button>
+        <Button className="flex justify-self-center my-4 underline font-bold text-base" variant="link">View More</Button>
       </main>
 
     </div>
