@@ -3,14 +3,14 @@ import Logo from "./logo";
 
 export default function Header() {
   return (
-    <header className="grid grid-cols-[1fr_auto] p-5 font-bold">
+    <header className="grid grid-cols-[1fr_auto] p-5">
       <Link className="grid grid-cols-[auto_1fr] gap-1" href="/">
         <Logo />
-        <span className="font-[family-name:var(--font-roboto)]">My learning journal</span>
+        <span className="font-roboto">My learning journal</span>
       </Link>
 
-      <nav>
-        <ul className="grid grid-cols-2 uppercase">
+      <nav className="flex items-center font-bold">
+        <ul className="flex gap-8 uppercase text-xs font-source mt-1">
           <li>
             <Link href="/">Home</Link>
           </li>
