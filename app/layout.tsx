@@ -31,7 +31,7 @@ export default function RootLayout({
       <body
         className="antialiased bg-slate-900"
       >
-        <div className="w-[414px] m-auto bg-white">
+        <div className="w-full max-w-[414px] m-auto bg-white">
           <Header />
           
           {children}
