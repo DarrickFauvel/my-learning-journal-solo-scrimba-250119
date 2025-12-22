@@ -27,7 +27,7 @@ const formattedDate = formatDate(date)
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-2 mb-3">
               {heading}
             </h2>
-            <p className="text-sm sm:text-base text-white/90 max-w-prose">
+              <p className="text-base sm:text-base text-white/90 max-w-prose">
               {text}
             </p>
           </div>
