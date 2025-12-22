@@ -12,7 +12,7 @@ export default function PostCard({
   imageAlt,
   isHero = false,
 }: PostCardProps) {
-const formattedDate = formatDate(date)
+  const formattedDate = formatDate(date)
 
   if (isHero) {
     return (
@@ -40,21 +40,23 @@ const formattedDate = formatDate(date)
   }
 
   return (
-    <Card className="w-full overflow-hidden border-0 shadow-none pb-6">
-      <CardContent className="p-0">
-        <div className="aspect-[16/9] px-6 pt-6 pb-3">
-          <img
-            src={image || "/images/placeholder.svg"}
-            alt={imageAlt}
-            className="w-full object-cover"
-          />
-        </div>
-        <div className="px-6">
-          <time className="text-sm uppercase">{formattedDate}</time>
-          <h2 className="text-2xl font-bold mt-2 mb-3">{heading}</h2>
-          <p className="text-base text-muted-foreground">{text}</p>
-        </div>
-      </CardContent>
-    </Card>
+    <Link href={`/blog/${id}`}>
+      <Card className="w-full overflow-hidden border-0 shadow-none pb-6">
+        <CardContent className="p-0">
+          <div className="aspect-[16/9] px-6 pt-6 pb-3">
+            <img
+              src={image || "/images/placeholder.svg"}
+              alt={imageAlt}
+              className="w-full object-cover"
+            />
+          </div>
+          <div className="px-6">
+            <time className="text-sm uppercase">{formattedDate}</time>
+            <h2 className="text-2xl font-bold mt-2 mb-3">{heading}</h2>
+            <p className="text-base text-muted-foreground">{text}</p>
+          </div>
+        </CardContent>
+      </Card>
+    </Link>
   )
 }
