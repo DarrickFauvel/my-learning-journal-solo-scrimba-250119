@@ -24,7 +24,7 @@ const formattedDate = formatDate(date)
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/40 to-black/20 flex flex-col justify-end p-6 text-white">
             <time className="text-sm text-white/80">{formattedDate}</time>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-2 mb-3">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-2 mb-3">
               {heading}
             </h2>
               <p className="text-base sm:text-base text-white/90 max-w-prose">
