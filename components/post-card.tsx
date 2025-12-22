@@ -49,7 +49,7 @@ const formattedDate = formatDate(date)
           />
         </div>
         <div className="px-6">
-          <time className="text-sm text-muted-foreground">{formattedDate}</time>
+          <time className="text-sm uppercase">{formattedDate}</time>
           <h2 className="text-xl font-bold mt-2 mb-3">{heading}</h2>
           <p className="text-sm text-muted-foreground">{text}</p>
         </div>
