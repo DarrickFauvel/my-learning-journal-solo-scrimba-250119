@@ -1,6 +1,7 @@
 import formatDate from "@/helpers/formatDate"
 import { Card, CardContent } from "./ui/card"
 import { PostCardProps } from "@/types/post"
+import Link from "next/link"
 
 export default function PostCard({
   id,
