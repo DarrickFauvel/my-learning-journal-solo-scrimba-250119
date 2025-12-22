@@ -4,7 +4,7 @@ export const posts = [
     date: "2022-07-23",
     heading: "My new journey as a bootcamp student.",
     text: "After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.",
-    image: "/images/blog-image-hero.png",
+    image: "/images/article-image-hero.png",
     imageAlt: "",
     isHero: true,
   },
