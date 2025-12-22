@@ -23,7 +23,7 @@ const formattedDate = formatDate(date)
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/40 to-black/20 flex flex-col justify-end p-6 text-white">
-            <time className="text-sm text-white/80">{formattedDate}</time>
+              <time className="text-xs sm:text-sm md:text-base uppercase text-white/80">{formattedDate}</time>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-2 mb-3">
               {heading}
             </h2>
